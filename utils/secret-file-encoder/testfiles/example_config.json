@@ -1,0 +1,58 @@
+{
+  "Env": "Dev",
+  "ThisPortNumber": ":8000",
+  "Version": "v2",
+  "LoggingLevel": 1,
+  "MaxRetries": 2,
+  "DefaultPageSize": 50,
+  "UmvV2":{
+    "Url":"https://test-int-api-gw.centene.com/umv/api/v2/MembersAll/Eligibility/Search",
+    "Auth":""
+  },
+  "UmvRef":{
+    "Url":"https://dev-int-api-gw.centene.com/getmember/api/umvRefData/RefType",
+    "Auth":""
+  },
+  "UmvV3":{
+    "Url":"https://test-int-api-gw.centene.com",
+    "Timeout":10
+  },
+  "AbsMemberComposite":{
+    "Url":"https://dev-int-api-gw.centene.com/absmemberinquiry/inq/abs/V1",
+    "Timeout":5
+  },
+  "Ratingmethodcode": {
+    "Url": "https://dev-int-api-gw.centene.com/abs/ratingmethodcode/rmc"
+  },
+  "Splitpea": {
+    "Url": "https://dev-int-api-gw.centene.com/splitpea/decrypt",
+    "Uid": "TEST_UID",
+    "Pwd": "TEST_PWD",
+    "Keys": [
+      {
+        "Name": "UMVV2APIAuthKey",
+        "KeyComponent2": "UMVV2_KEY",
+        "Euuid": "ENCODED_UMVV2_UUID"
+      },
+      {
+        "Name": "UMVV1APIAuthKey",
+        "KeyComponent2": "UMVV1_KEY",
+        "Euuid": "ENCODED_UMVV1_UUID"
+      },
+      {
+        "Name": "absmemberinquiry",
+        "KeyComponent2": "ABS_KEY",
+        "Euuid": "ENCODED_ABS_UUID"
+      },
+      {
+        "Name": "ratingmethodcode",
+        "KeyComponent2": "RMC_KEY",
+        "Euuid": "ENCODED_RMC_UUID"
+      }
+    ]
+  },
+  "Log": {
+    "CallDuration": 1
+  },
+  "InsecureSkipVerify": false
+}

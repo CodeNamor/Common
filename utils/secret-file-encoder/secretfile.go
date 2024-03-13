@@ -11,7 +11,7 @@ import (
 const (
 	// Default values for currently assumed secret file keys
 	defaultKind      = "Secret"
-	defaultNamespace = "omni"
+	defaultNamespace = "CodeNamor"
 	defaultType      = "Opaque"
 
 	outputFileWritePermissions os.FileMode = 0644

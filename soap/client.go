@@ -3,7 +3,7 @@ package soap
 import (
 	"bytes"
 	"encoding/xml"
-	"io/ioutil"
+	"io/ioutil" //TODO: migrate to package io
 	"net/http"
 
 	"github.com/CodeNamor/Common/requestclient"

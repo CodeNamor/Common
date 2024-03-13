@@ -5,7 +5,7 @@ import (
 	"flag"
 )
 
-// InputFlags provides a structure for storing all flags input to the executable,
+// SecretFileEncoderInputFlags InputFlags provides a structure for storing all flags input to the executable,
 // encapsulating all input data to avoid future parameter changes.
 type SecretFileEncoderInputFlags struct {
 	apiVersion     *string

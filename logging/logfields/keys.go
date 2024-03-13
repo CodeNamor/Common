@@ -1,3 +1,5 @@
+package logfields
+
 /*
 Below are keys for fields used in logging using the "github.com/sirupsen/logrus" structured logger
 
@@ -8,7 +10,6 @@ logging.WithFields( logfields.Function, "aFnName" ).Trace()
 In this way the logger will include "function=aFnName" in the logging statement. The goal of having these constants for
 field names is so that the fields are consistently labeled across the APIs.
 */
-package logfields
 
 // Common fields across all APIs
 const (

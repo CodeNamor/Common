@@ -4,7 +4,7 @@ package main
 // secret-file-encoder is the installed executable name
 
 // example usage:
-// secret-file-encoder -p omni-membersearch-api -i ./testfiles/example_config.json -o ./testfiles/example_secret.yaml -version v1.22.3
+// secret-file-encoder -p  {{service}}-api -i ./testfiles/example_config.json -o ./testfiles/example_secret.yaml -version v1.22.3
 
 // for help
 // secret-file-encoder -h

@@ -1,6 +1,6 @@
 module github.com/CodeNamor/Common
 
-go 1.18
+go 1.20
 
 require (
 	github.com/ascarter/requestid v0.0.0-20170313220838-5b76ab3d4aee
@@ -24,5 +24,3 @@ require (
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
-
-replace github.com/codenamor/config => ../config
